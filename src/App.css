@@ -1,0 +1,289 @@
+* {
+   font-family: "Montserrat", sans-serif;
+}
+
+.backgroundImage {
+   background: #fff url("../public/images/IMG_7283.jpeg") left center/cover
+      no-repeat;
+   background-attachment: fixed;
+   min-height: 100vh;
+}
+.weight600 {
+   font-weight: 800;
+   text-decoration: underline;
+   font-size: larger;
+}
+.weight800 {
+   font-weight: 800;
+   color: rgba(0, 0, 0, 0.541);
+   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.weight900 {
+   font-weight: 800;
+   color: rgba(255, 255, 255, 0.863);
+   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.lightWeight {
+   font-weight: 400;
+}
+
+.font-white {
+   color: white;
+}
+
+.list-inline-item {
+   margin-top: 10px;
+   transition: all 0.5s ease;
+}
+.list-inline-item:hover {
+   transform: scale(1.2);
+}
+.linkDecoration {
+   text-decoration: none;
+   color: white !important;
+}
+.min-height-100vh {
+   min-height: 100vh;
+}
+
+.navBar-float {
+   position: fixed !important;
+   left: 0;
+   bottom: 35%;
+   color: rgb(104, 104, 104) !important;
+   list-style: none;
+   z-index: 3;
+   padding: 1rem;
+}
+
+.navIcon {
+   transition: all 0.5s ease;
+   opacity: 0.7;
+   mix-blend-mode: difference;
+}
+.navIcon::before {
+   background: linear-gradient(
+      to bottom,
+      #ccc 0%,
+      #ccc 50%,
+      #555 50%,
+      #555 100%
+   );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.navIcon:active {
+   transform: translateY(5px) !important;
+}
+.navIcon:hover {
+   transform: scale(1.1);
+   opacity: 1;
+   color: rgb(177, 177, 177);
+}
+
+.tool-tip {
+   position: absolute;
+   left: -55%;
+   opacity: 0;
+   transition: all 0.5s ease;
+   cursor: pointer;
+   font-weight: 800;
+   height: 40px;
+
+   text-align: center;
+}
+.tool-tip:active {
+   transform: translateY(2px);
+}
+
+.tool-tip-mobile {
+   cursor: pointer;
+}
+.navIcon:hover .tool-tip {
+   left: 70%;
+   opacity: 1;
+}
+
+.nav-bar-mobile {
+   position: fixed;
+   bottom: 10%;
+   left: 2%;
+   z-index: 10;
+}
+
+.menus {
+   list-style: none;
+   position: absolute;
+   top: -100px;
+   background-color: rgba(0, 0, 0, 0.774);
+   border-radius: 20px;
+   transition: all 0.3s ease;
+   z-index: 6;
+
+   box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.arrowNav {
+   color: rgba(116, 116, 116, 0.582);
+}
+.arrowNav:active {
+   transform: scale(1.2);
+}
+.mobileIconMenu {
+   color: rgb(255, 255, 255) !important;
+}
+.btn:active {
+   transform: translateY(2px);
+}
+#check {
+   visibility: hidden;
+}
+
+.h-100 {
+   height: 100%;
+}
+
+.backgroundImage-2 {
+   background-image: url("../public/images/brandi-redd-aJTiW00qqtI-unsplash.png");
+   background-position: left center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 40vh;
+}
+.text-justify {
+   text-align: justify;
+   text-justify: inter-word;
+}
+.imgNan {
+   height: 250px;
+   width: 250px;
+
+   box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+}
+.experienceSection {
+   min-height: 70vh;
+}
+
+.workSection {
+   background: #fff url("./images/pexels-hasan-albari-1229861.jpg") left
+      center/cover no-repeat;
+   background-attachment: fixed;
+   min-height: 80vh;
+}
+
+.Card {
+   color: rgba(0, 0, 0, 0.753);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.cardText {
+   font-size: clamp(0.625rem, 0.5787rem + 0.2469vw, 0.875rem) !important;
+}
+
+.darkButton {
+   background-color: black !important;
+   font-size: clamp(0.625rem, 0.6019rem + 0.1235vw, 0.75rem) !important;
+}
+.responsiveBanner {
+   max-height: 50vh;
+}
+.lightText-WorkSection {
+   color: rgba(255, 255, 255, 0.808);
+   width: 80%;
+   font-weight: 800;
+}
+.descriptionTag {
+   font-size: 20px;
+   color: rgba(255, 255, 255, 0.705);
+   width: 80%;
+}
+a {
+   text-decoration: none;
+   color: rgb(136, 136, 136) !important;
+}
+
+.skillsSection {
+   min-height: 80vh;
+   margin: 100px 0 100px 0;
+}
+.skillsIcon {
+   width: 100px;
+   margin-bottom: 5px;
+   transition: transform 0.3s ease;
+}
+.skillsIcon:hover {
+   transform: scale(1.1);
+}
+.skillSet {
+   margin: 5px;
+}
+.underLineTitle {
+   width: 100px;
+   border-bottom: 2px solid rgb(0, 0, 0);
+}
+.underLineTitleLight {
+   width: 100px;
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+.underLine {
+   width: 0;
+   border-bottom: 2px solid rgb(0, 0, 0);
+   transition: width 0.5s ease;
+}
+.skillsIcon:hover + div > .underLine {
+   width: 30px !important   ;
+}
+
+.banner {
+   position: absolute;
+   top: -5rem;
+   min-height: 8rem;
+   background-color: rgb(56, 56, 56);
+   border-radius: 2rem;
+   width: 80vw;
+   z-index: 5;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.text-shadow-white {
+   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+.bannerButton {
+   height: 2.5rem;
+   font-size: clamp(0.625rem, 0.6019rem + 0.1235vw, 0.75rem) !important;
+   width: 150px;
+}
+.bannerTitle {
+   color: white;
+   text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.6);
+}
+
+.contactCard {
+   min-width: 40%;
+}
+
+.footer {
+   background-image: url("../src/images/pexels-johannes-plenio-1103970.jpg");
+   background-position: left center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 65vh;
+}
+.contactCardtitle {
+   font-size: clamp(0.75rem, 0.7037rem + 0.2469vw, 1rem);
+}
+.contactCardName {
+   font-size: clamp(1rem, 0.9537rem + 0.2469vw, 1.25rem);
+}
+.contactCardDetails {
+   font-size: clamp(0.75rem, 0.7269rem + 0.1235vw, 0.875rem);
+}
